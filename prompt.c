@@ -53,8 +53,6 @@
 	They have their own built in compiler macros.
 	For Linux:
 		__linux__: The most standard one
-		linux: older, less common
-		__linux: also exists for compatibility
 		
 	In practise, you check:
 		#ifdef __linux__
@@ -70,9 +68,7 @@
 			//apple code
 		#endif
 	
-	If you wanna distinguish between macOS, iOS etc, look into <TargetConditionals.h> which apple provides.
-
-	
+	If you wanna distinguish between macOS, iOS etc, look into <TargetConditionals.h>.
 */
 
 #include <stdio.h>
