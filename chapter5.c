@@ -55,6 +55,6 @@ mpc_cleanup(4, Adjective, Noun, Phrase, Doge);
 
 int main()
 {
-	
+	return 0;
 }
  //guess what I had for dinner :p
